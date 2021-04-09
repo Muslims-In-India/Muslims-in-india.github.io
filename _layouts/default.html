@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="center w-two-thirds-l w-two-thirds-m w-90">
+
+    {%- include header.html -%}
+
+    <div class="pv4 flex-auto">
+      <div class="w-100">
+        {{ content }}
+      </div>
+    </div>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
